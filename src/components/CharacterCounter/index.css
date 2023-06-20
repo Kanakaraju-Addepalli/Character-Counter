@@ -1,0 +1,96 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.responsive-container {
+  min-width: 70%;
+  height: 80%;
+  display: flex;
+}
+.left-container {
+  width: 50%;
+  height: 100%;
+  background-color: #ffc533;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.right-container {
+  width: 50%;
+  height: 100%;
+  background-color: #0f172a;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffbf1f;
+  height: 150px;
+  margin: 6px;
+  border-radius: 5px;
+}
+.info {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.no-inputs-image {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+.user-entered-list {
+  margin-top: 50px;
+}
+.heading {
+  color: #ffbf1f;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 60px;
+}
+.input-container {
+  display: flex;
+}
+input {
+  height: 35px;
+  width: 70%;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  margin-left: 40px;
+  color: #475569;
+  font-size: 16px;
+}
+.add-button {
+  height: 35px;
+  background-color: #ffc533;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 10px;
+  padding: 10px 25px 10px 25px;
+  color: #334155;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+li {
+  list-style-type: none;
+}
+.user-entered-text {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 1px;
+  padding: 0px;
+}
